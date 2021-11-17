@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Mocking By Jay</title>
+</head>
+<body>
+    <div class="bg-imgCover">
+        <div class="bg-nero">
+            <div class="container">
+                <img src="./images/logo.png" alt="">
+
+                <div class="button-smooth">
+                    <a href="#about"><button>Let's Start! <i id="down" class="fas fa-chevron-down"></i></button></a>   
+                </div>         
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container" style="margin-top: 90px;">
+        <h1 class="open-sans">Chi siamo e <br> <span class="permanent-marker">perché</span> lo facciamo</h1>
+
+        <p class="open-sans" style="margin-top: 30px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet nulla vitae neque gravida sollicitudin. 
+            Donec porta neque ac quam porta, in varius erat tincidunt. Praesent eleifend at sem commodo commodo. 
+            Pellentesque tincidunt, tortor vitae efficitur efficitur, orci velit convallis mauris, sit amet placerat lacus magna et purus. 
+            Cras vitae nunc molestie, 
+            rutrum magna eget, gravida tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+            posuere cubilia curae.
+        </p>
+    </div>
+
+
+    <div class="hero-vetrina container">
+        <h1 class="open-sans">La <span class="permanent-marker">nostra</span> vetrina </h1>
+
+        <div class="container">
+            <div class="row">
+                <a class="col bg-1" href="">
+                        <h1 class="open-sans center">Eventi<br>Rap-Battle</h1>
+                </a>
+                <a class="col bg-2" href="">
+                        <h1 class="open-sans center">Talenti</h1>
+                </a>
+                <a class="col bg-3" href="">
+                        <h1 class="open-sans center">Prenota<br>lo studio</h1>
+                </a>   
+            </div>
+        </div>
+    </div>
+
+    <img style="width: 100%;"  src="./images/stacco.png" alt="">
+
+    <div class="body-bianco">
+        <div class="container">
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                <div class="carousel-cell">
+                    <div class="front" id="cell-1">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-2">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-3">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-4">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-5">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-6">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-7">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+                <div class="carousel-cell" >
+                    <div class="front" id="cell-8">
+                    </div>
+                    <div class="back">
+                        <a href=""><button class="carousel-button open-sans" style="color: #000;">Scopri di più</button></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="form-black">
+                <h1 class="open-sans"><span class="permanent-marker">Prenota</span> ora uno<br>studio e un artista</h1>
+
+                <form action="">
+                    <input class="open-sans" type="text" placeholder="Nome">
+                    <input class="open-sans" type="text" placeholder="Cognome">
+                    <input class="open-sans" type="text" placeholder="Email">
+                    <textarea class="open-sans" placeholder="Messaggio" rows="10" cols="50"></textarea>
+                    <input class="open-sans" type="submit" name="submit" id="submit" value="Invia">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="col open-sans">
+                <span> Created By Federico Razza </span>
+              </div>
+              <div class="col">
+                <img src="./images/logo.png" alt="">
+              </div>
+              <div class="col open-sans">
+                  <span>Trovi interessante questo sito?<br>Contattami!</span>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
